@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    border: none;
+    outline:none ;
+    scroll-behavior: smooth;
+}
+:root{
+    --bg-color:#03141f;
+    --second-bg-color:#112e42;
+    --text-color:#ededed;
+    --main-color:#00abf0;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+body{
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+.port{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+.con a{
+color: var(--text-color);
+margin-right: 45px;
+font-size: 12px;
+}
+ a:hover{
+    transition: 0.5s;
+    font-size: 16px;
+}
+/* one-section  */
+.colum-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.9s;
+}
+.manu{
+    width: 60%;
+    margin-left: 7%;
+    margin-top: 10%;
+}
+ h1, h2 {
+    font-size: 40px;
+}
+p{
+    font-size: 18px;
+    line-height: 35px;
+    margin-top: 15px;
+}
+.shocial{
+    margin-top: 60px;
+    margin-bottom: 35px;
+}
+button{
+    padding: 10px;
+    background-color: #00abf0;
+    color: white;
+    margin-top: 15px;
+    border-radius: 5%;
+}
+i{
+    font-size: 25px;
+    margin-left: 10px;
+    color: var(--main-color);
+}
+.photo{
+    background-image: url(image/binu.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    border-radius: 50%;
+    width: 25%;
+    opacity: 0.7;
+    margin-top: 5%;
+    margin-right: 35px;
+}
+/* two sectino   */
+.colum-2{
+    background-color: var(--second-bg-color);
+    width: 100%;
+    text-align: center;
+}
+
+h3{
+    font-size: 35px;
+    padding-top: 25px;
+}
+.ab{
+    margin-top: 0px;
+}
+img{
+    border-radius: 50%;
+    margin-top: 70px;
+    opacity: .5;
+}
+/* three */
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: rgb(242, 244, 247);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    text-align: center;
+    text-align: left;
+    opacity: 0.7;
+    border-radius: 5px;
+    background-color:var(--bg-color);
+    padding: 20px;
+  }
